@@ -3,4 +3,4 @@
 ### requirements
 
 * git
-* Java 21 , I recommand using SDKMAN for this
+* Java 21 , I recommend using SDKMAN for this
