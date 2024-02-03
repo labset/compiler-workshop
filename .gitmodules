@@ -1,6 +1,3 @@
 [submodule "jtreg"]
 	path = jtreg
 	url = https://github.com/labset/jtreg-workshop.git
-[submodule "jdk"]
-	path = jdk
-	url = https://github.com/labset/jdk-workshop.git
