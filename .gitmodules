@@ -1,3 +1,0 @@
-[submodule "jtreg"]
-	path = jtreg
-	url = https://github.com/labset/jtreg-workshop.git
