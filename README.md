@@ -13,7 +13,7 @@
 - clone the repo
 
 ```bash
-git clone --recursive https://github.com/labset/compiler-workshopt.git
+git clone https://github.com/labset/compiler-workshop.git --recurse-submodules --shallow-submodulesc
 ```
 
 - build jtreg
@@ -34,10 +34,11 @@ time make jdk
 
 <details>
 <summary>using docker</summary>
+
 - clone the repo
 
 ```bash
-git clone --recursive https://github.com/labset/compiler-workshopt.git
+git clone https://github.com/labset/compiler-workshop.git --recurse-submodules --shallow-submodulesc
 ```
 
 - run docker
@@ -66,4 +67,30 @@ cd /sources/compiler-workshop/jdk
 time bash configure --enable-debug --with-jtreg=../jtreg/build/images/jtreg
 time make jdk
 ```
+</details>
+
+<details>
+<summary>using codespaces</summary>
+
+- update the submodules
+
+```bash
+git submodule update --init --depth=1
+```
+
+- build jtreg
+
+```bash
+cd jtreg
+time bash make/build.sh --jdk /opt/java/openjdk
+```
+
+- configure and build jdk
+
+```bash
+cd jdk
+time bash configure --enable-debug --with-jtreg=../jtreg/build/images/jtreg
+time make jdk
+```
+
 </details>
