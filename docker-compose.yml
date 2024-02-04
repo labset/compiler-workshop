@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  session:
+    build:
+      dockerfile: Dockerfile
+    entrypoint: /bin/bash
+    working_dir: /sources/compiler-workshop
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/sources/compiler-workshop
