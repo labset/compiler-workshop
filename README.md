@@ -4,12 +4,13 @@
 
 - git
 - Java 21 , and Ant
-  - I recommend using SDKMAN for this
+  - I recommend using [SDKMAN](https://sdkman.io/) for this
 
 ## Task 0 : setup environment and IDE
 
 <details>
 <summary>locally</summary>
+
 - clone the repo
 
 ```bash
