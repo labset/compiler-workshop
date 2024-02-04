@@ -96,13 +96,11 @@ time make jdk
 
 </details>
 
----
 
 ## Task 0 continued : setup IDE
 
 Find details about your specific [IDE](jdk/doc/ide.md)
 
----
 
 ## Task 1 : run an existing test suite
 
@@ -117,5 +115,5 @@ time make test TEST="test/jdk/:jdk_concurrent"
 - you can just the one test case using the following pattern `make test TEST="test/jdk/<file-path>"`
 
 ```bash
-make test TEST="test/jdk/java/util/Map/EntrySetIterator.java"
+time make test TEST="test/jdk/java/util/Map/EntrySetIterator.java"
 ```
