@@ -102,20 +102,3 @@ time make jdk
 ## Task 0 continued : setup IDE
 
 Find details about your specific [IDE](jdk/doc/ide.md)
-
-
-## Task 1 : run an existing test suite
-
-- take a look at `jdk/test/jdk/TEST.groups`, it defines the different test tiers
-- you can run a specific test suite, for example
-
-```bash
-time make test TEST="test/jdk/:jdk_collections_core"
-time make test TEST="test/jdk/:jdk_concurrent"
-```
-
-- you can just the one test case using the following pattern `make test TEST="test/jdk/<file-path>"`
-
-```bash
-time make test TEST="test/jdk/java/util/Map/EntrySetIterator.java"
-```
