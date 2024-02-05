@@ -14,7 +14,8 @@
 - clone the repo
 
 ```bash
-git clone https://github.com/labset/compiler-workshop.git --recurse-submodules --shallow-submodulesc
+git clone https://github.com/labset/compiler-workshop.git
+git submodule update --init --depth=1
 ```
 
 - build jtreg
@@ -39,7 +40,8 @@ time make jdk
 - clone the repo
 
 ```bash
-git clone https://github.com/labset/compiler-workshop.git --recurse-submodules --shallow-submodulesc
+git clone https://github.com/labset/compiler-workshop.git
+git submodule update --init --depth=1
 ```
 
 - run docker
