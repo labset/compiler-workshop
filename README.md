@@ -78,7 +78,7 @@ time make jdk
 - update the submodules
 
 ```bash
-git submodule update --init --depth=1
+git submodule update --init
 ```
 
 - build jtreg
