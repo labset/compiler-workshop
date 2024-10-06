@@ -30,7 +30,7 @@ time bash make/build.sh
 ```bash
 cd compiler-workshop/jdk
 time bash configure --enable-debug --with-jtreg=../jtreg/build/images/jtreg
-time make jdk
+time make images
 ```
 </details>
 
@@ -68,7 +68,7 @@ time bash make/build.sh --jdk /opt/java/openjdk
 ```bash
 cd /sources/compiler-workshop/jdk
 time bash configure --enable-debug --with-jtreg=../jtreg/build/images/jtreg
-time make jdk
+time make images
 ```
 </details>
 
@@ -93,7 +93,7 @@ time bash make/build.sh --jdk /opt/java/openjdk
 ```bash
 cd jdk
 time bash configure --enable-debug --with-jtreg=../jtreg/build/images/jtreg
-time make jdk
+time make images
 ```
 
 </details>
