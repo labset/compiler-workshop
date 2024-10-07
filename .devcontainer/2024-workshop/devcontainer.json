@@ -8,5 +8,5 @@
     },
     "ghcr.io/devcontainers/features/common-utils:2": {}
   },
-  "postCreateCommand": "./setup,sh",
+  "updateContentCommand": "./setup.sh"
 }
