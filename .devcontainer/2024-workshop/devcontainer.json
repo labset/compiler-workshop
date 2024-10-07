@@ -7,5 +7,6 @@
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/common-utils:2": {}
-  }
+  },
+  "postCreateCommand": "./setup,sh",
 }
