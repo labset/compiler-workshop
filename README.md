@@ -99,6 +99,6 @@ time make images
 </details>
 
 
-## Task 0 continued : setup IDE
+## Task 0 continued: setup IDE
 
 Find details about your specific [IDE](jdk/doc/ide.md)
